@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AnySoftKeyboard - change_me Language Pack</string>
-    <string name="keyboard_name">change_me</string>
-    <string name="dictionary_name">change_me</string>
+    <string name="app_name">AnySoftKeyboard - Chinese Language Pack</string>
+    <string name="keyboard_name">Traditional Chinese</string>
+    <string name="dictionary_name">Traditional Chinese</string>
+    <string name="keyboard_name_cn">Simplified Chinese</string>
+    <string name="dictionary_name_cn">Simplified Chinese</string>
 </resources>
