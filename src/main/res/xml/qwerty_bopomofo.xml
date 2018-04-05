@@ -4,16 +4,17 @@
     android:keyWidth="10%p"><!-- "android:keyWidth" specify the default width of a key. In this example, 10% of parent (the whole keyboard) -->
 
     <Row android:extension="true">
-        <Key android:keyLabel="1" android:shiftLabel="!" />
-        <Key android:keyLabel="2" android:shiftLabel="\@" />
-        <Key android:keyLabel="3" android:shiftLabel="\#" />
-        <Key android:keyLabel="4" android:shiftLabel="&amp;" />
-        <Key android:keyLabel="5" android:shiftLabel="-" />
-        <Key android:keyLabel="6" android:shiftLabel="\'" />
-        <Key android:keyLabel="7" android:shiftLabel=":" />
-        <Key android:keyLabel="8" android:shiftLabel="&quot;" />
-        <Key android:keyLabel="9" android:shiftLabel="/" />
-        <Key android:keyLabel="0" android:shiftLabel="\?" />
+        <Key android:keyLabel="ㄅ" android:shiftLabel="!" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="ㄉ" android:shiftLabel="\@" />
+        <Key android:keyLabel="ˇ" android:shiftLabel="\#" />
+        <Key android:keyLabel="ˋ" android:shiftLabel="&amp;" />
+        <Key android:keyLabel="ㄓ" android:shiftLabel="-" />
+        <Key android:keyLabel="ˊ" android:shiftLabel="\'" />
+        <Key android:keyLabel="˙" android:shiftLabel=":" />
+        <Key android:keyLabel="ㄚ" android:shiftLabel="&quot;" />
+        <Key android:keyLabel="ㄞ" android:shiftLabel="/" />
+        <Key android:keyLabel="ㄢ" android:shiftLabel="\?" />
+        <Key android:codes="45" android:keyLabel="ㄦ" android:keyEdgeFlags="right"/>
     </Row>
 
     <Row>
@@ -36,7 +37,6 @@
         <Key android:codes="105" android:keyLabel="ㄚ" android:popupCharacters="8ìíîïłī" />
         <Key android:codes="111" android:keyLabel="ㄞ" android:popupCharacters="9òóôõöøőœō" />
         <Key android:codes="112" android:keyLabel="ㄢ" android:popupCharacters="0" />
-        <Key android:codes="45" android:keyLabel="ㄦ" android:keyEdgeFlags="right"/>
     </Row>
      
     <Row>
